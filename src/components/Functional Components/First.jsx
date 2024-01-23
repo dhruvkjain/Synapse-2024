@@ -36,6 +36,12 @@ class First extends React.Component {
                 <div>
                     <div className='homepage'>
                         <div className='bg-1'>
+                            <div className="bg-vid">
+                            {/* <video autoPlay muted loop>
+                                <source src="src\assets\clip3.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video> */}
+                            </div>
                         <Navbar changePageinApp={this.changePageinApp} />
                         <ScrollToBottom/>
                         <div className='synapse'>
@@ -51,7 +57,7 @@ class First extends React.Component {
                             </div>
                             <div id="aboutus" className='aboutus'>
                                 <div className='cont3 '>
-                                    <p className='aboutusheading'>About Us</p>
+                                    <p className='aboutusheading phonk'>About Us</p>
 
                                     <p className='cont2'>
                                         Synapse is DAIICT’s annual college fest that brings together artists,
@@ -63,7 +69,7 @@ class First extends React.Component {
                                         performances, and dance parties, providing attendees with an
                                         opportunity to unwind, socialize and celebrate creativity in all its forms.
                                     </p>
-                                    <p className='aboutusheading'>Date</p>
+                                    <p className='date phonk'>Date</p>
                                     <p className=''>
                                         22  |  23  |  24  |  25  -  February
                                     </p>
