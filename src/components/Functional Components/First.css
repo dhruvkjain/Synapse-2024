@@ -112,7 +112,8 @@
     /* z-index: 100; */
 }
 .date{
-
+    /* text-align: start; */
+    font-size: 3vw;
 }
 
 .aboutus {
